@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,74 +6,145 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nancy Oliveira</title>
-  <link rel="stylesheet" href=" agency.css">
+  <link rel="stylesheet" href="css/agency.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
+
+<link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KT2EPNJSCT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-KT2EPNJSCT');
+  </script>
+
+     <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-K3WVVQVN');</script>
+  <!-- End Google Tag Manager -->
 </head>
 
 <body>
-  <header class="l-header">
-    <nav class="nav-menu" id="nav-menu">
-      <a href="index.html" class="nav-logo">Nancy Oliveira</a>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3WVVQVN"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+   
+  <header class="header">
+    <nav class="nav containernav">
+      <div class="nav__data">
+        <a href="index.html" class="nav__logo">
+                    <img src="images/IMG_1818.png" alt="Logo da Nancy Oliveira">
+                </a>
 
-      <!-- Botão Hambúrguer -->
-      <button class="menu-toggle">
-        &#9776; <!-- Símbolo do menu hambúrguer -->
-      </button>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
+        </div>
+      </div>
 
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a href="#" class="nav-link" data-lang="mystory">Nancy Oliveira</a>
-          <ul class="submenu">
-            <li><a href="mystory.html">My Story</a></li>
-            <li><a href="https://www.linkedin.com/pulse/topics/home/?trk=public_profile_guest_nav_menu_articles"
-                target="_blank">Blog</a></li>
-          </ul>
-        </li>
+      <!--=============== NAV MENU ===============-->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
 
-        <li class="nav-item">
-          <a href="#" class="nav-link" data-lang="production">Portugal Production</a>
-          <ul class="submenu">
-            <li><a href="agency.html">Agency</a></li>
-            <li><a href="academy.html">Academy</a></li>
-            <li><a href="shows.html">Shows</a></li>
-          </ul>
-        </li>
+          <!--=============== DROPDOWN 1 ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Nancy Oliveira <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
 
-        <li class="nav-item">
-          <a href="#" class="nav-link" data-lang="community">Shoe Squad</a>
-          <ul class="submenu">
-            <li><a href="https://chat.whatsapp.com/CTaUss0I5zi6aEuM7xYQSc" target="_blank">Whatsapp</a></li>
-            <li><a href="#community">Community</a></li>
-          </ul>
-        </li>
+            <ul class="dropdown__menu">
+              <li>
+                <a href="mystory.html" class="dropdown__link"> My Story
+                </a>
+              </li>
 
-        <li class="nav-item">
-          <a href="#contact" class="nav-link" data-lang="contact">Contact</a>
-        </li>
-      </ul>
+              <li>
+                <a href="https://www.linkedin.com/in/nancyoliveira/recent-activity/articles/" class="dropdown__link"
+                  target="_blank"> Blog </a>
 
-      <select class="language-selector" id="language-selector">
-        <option value="en">English</option>
-        <option value="pt">Português</option>
-        <option value="es">Español</option>
-      </select>
+              </li>
+
+
+            </ul>
+          </li>
+
+
+          <!--=============== DROPDOWN 2 ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Portugal Production <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="agency.html" class="dropdown__link"> Agency
+                </a>
+              </li>
+
+              <li>
+                <a href="academy.html" class="dropdown__link"> Academy
+                </a>
+              </li>
+
+              <li>
+                <a href="shows.html" class="dropdown__link"> Shows
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--=============== DROPDOWN 3 ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Shoe Squad <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="https://chat.whatsapp.com/CTaUss0I5zi6aEuM7xYQSc" class="dropdown__link" target="_blank">
+                  Whatsapp </a>
+
+              </li>
+
+              <li>
+                <a href="community.html" class="dropdown__link"> Community
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
     </nav>
-
   </header>
   <section id="timeline">
-  <div class="tl-item">
-    <div class="tl-bg" style="background-image: url( IMG-20250225-WA0011.jpg)"></div>
-    <div class="tl-text">WELCOME TO PORTUGAL PRODUCTION AGENCY</div>
-    <div class="tl-text2">Start and Grow your own Footwear and Fashion Brand</div>
-    <div class="tl-text3">with an expert team, proven systems, and resources you need to develop, manufacture,
-      launch and scale successfully.</div>
-    <div class="tl-text4">+10 years in the biz | + 50 brands</div>
-    <a href="#contact" class="botao-contact" data-lang="contact">GET IN TOUCH!</a>
+    <div class="tl-item">
+      <div class="tl-bg" style="background-image: url( images/IMG-20250225-WA0011.jpg)"></div>
+      <div class="tl-text"><BR>
+        PORTUGAL PRODUCTION AGENCY</div>
+      <div class="tl-text2">From concept to production—your<br> team on the ground in Portugal
 
+      </div>
+      <div class="tl-text3">Let's bring your life to life </div>
 
-  </div>
+      <a href="https://www.portugalproduction.com/agency/" class="botao-contact" data-lang="contact" target="_blank">GET
+        IN TOUCH</a>
+    </div>
   </section>
 
 
@@ -107,7 +179,7 @@
 
       </li>
       <li>
-        <span class="company"> SUSTENABLE | </span>
+        <span class="company"> SUSTAINABLE | </span>
       </li>
       <li>
         <span class="company"> SIZE-INCLUSIVE | </span>
@@ -123,7 +195,7 @@
 
       </li>
       <li>
-        <span class="company"> SUSTENABLE | </span>
+        <span class="company"> SUSTAINABLE | </span>
       </li>
       <li>
         <span class="company"> SIZE-INCLUSIVE | </span>
@@ -139,7 +211,7 @@
 
       </li>
       <li>
-        <span class="company"> SUSTENABLE | </span>
+        <span class="company"> SUSTAINABLE | </span>
       </li>
       <li>
         <span class="company"> SIZE-INCLUSIVE | </span>
@@ -155,7 +227,7 @@
 
       </li>
       <li>
-        <span class="company"> SUSTENABLE | </span>
+        <span class="company"> SUSTAINABLE | </span>
       </li>
       <li>
         <span class="company"> SIZE-INCLUSIVE | </span>
@@ -171,7 +243,7 @@
 
       </li>
       <li>
-        <span class="company"> SUSTENABLE | </span>
+        <span class="company"> SUSTAINABLE | </span>
       </li>
       <li>
         <span class="company"> SIZE-INCLUSIVE | </span>
@@ -187,7 +259,7 @@
 
       </li>
       <li>
-        <span class="company"> SUSTENABLE | </span>
+        <span class="company"> SUSTAINABLE | </span>
       </li>
       <li>
         <span class="company"> SIZE-INCLUSIVE | </span>
@@ -203,7 +275,7 @@
 
       </li>
       <li>
-        <span class="company"> SUSTENABLE | </span>
+        <span class="company"> SUSTAINABLE | </span>
       </li>
       <li>
         <span class="company"> SIZE-INCLUSIVE | </span>
@@ -219,7 +291,7 @@
 
       </li>
       <li>
-        <span class="company"> SUSTENABLE | </span>
+        <span class="company"> SUSTAINABLE | </span>
       </li>
       <li>
         <span class="company"> SIZE-INCLUSIVE | </span>
@@ -235,7 +307,7 @@
 
       </li>
       <li>
-        <span class="company"> SUSTENABLE | </span>
+        <span class="company"> SUSTAINABLE | </span>
       </li>
     </ul>
 
@@ -255,7 +327,7 @@
 
       </li>
       <li>
-        <span class="company"> SUSTENABLE | </span>
+        <span class="company"> SUSTAINABLE | </span>
       </li>
       <li>
         <span class="company"> SIZE-INCLUSIVE | </span>
@@ -271,13 +343,12 @@
 
       </li>
       <li>
-        <span class="company"> SUSTENABLE | </span>
+        <span class="company"> SUSTAINABLE | </span>
       </li>
     </ul>
   </div>
 
   <div class="container">
-
     <h1>What We Do</h1>
     <p1>We work with you towards success. Committed to objectives, focused, creative and helpful, we become added
       value to your brand.</p1>
@@ -365,10 +436,11 @@
       </div>
     </div>
     <div class="about-container">
-
-      <a href="#contact" class="botao-contacto1" data-lang="contact">SCHEDULE A FREE 30 MIN. STRATEGIC CALL</a>
+      <a href="https://calendly.com/portugal-production/30-minutes-strategic-call" target="_blank"
+        class="botao-contacto1" data-lang="contact">SCHEDULE A FREE 30 MIN. STRATEGIC CALL</a>
     </div>
   </div>
+
 
   <section class="fouders-section" id="founders">
 
@@ -380,18 +452,18 @@
 
       <div class="wrapper">
 
-        <div class="card"><img src=" IMG-20250225-WA0006.jpg" alt="image" style="border-radius:12px; ">Teddy
+        <div class="card"><img src=" images/IMG-20250225-WA0006.jpg" alt="image" style="border-radius:12px; ">Teddy
           James, Nederlands</div>
-        <div class="card2"><img src=" IMG-20250225-WA0007.jpg" alt="image"
-            style="border-radius:12px ;">Svanhild, Faroe Islands</div>
-        <div class="card3"><img src=" IMG-20250225-WA0008.jpg" alt="image"
-            style="border-radius:12px ;">ATIANA, Australia</div>
-        <div class="card4"><img src=" IMG-20250225-WA0009.jpg" alt="image"
-            style="border-radius:12px ;">Jazmine Kionna, USA</div>
-        <div class="card5"><img src=" IMG-20250225-WA0010.jpg" alt="image" style="border-radius:12px ;">Jocie
+        <div class="card2"><img src=" images/IMG-20250225-WA0007.jpg" alt="image" style="border-radius:12px ;">Svanhild,
+          Faroe Islands</div>
+        <div class="card3"><img src=" images/IMG-20250225-WA0008.jpg" alt="image" style="border-radius:12px ;">ATIANA,
+          Australia</div>
+        <div class="card4"><img src=" images/IMG-20250225-WA0009.jpg" alt="image" style="border-radius:12px ;">Jazmine
+          Kionna, USA</div>
+        <div class="card5"><img src=" images/IMG-20250225-WA0010.jpg" alt="image" style="border-radius:12px ;">Jocie
           Juritz, UK</div>
-        <div class="card6"><img src=" IMG-20250225-WA0011.jpg" alt="image"
-            style="border-radius:12px ;">Winnoh, USA</div>
+        <div class="card6"><img src=" images/IMG-20250225-WA0011.jpg" alt="image" style="border-radius:12px ;">Winnoh,
+          USA</div>
       </div>
     </div>
 
@@ -406,7 +478,7 @@
         </div>
         <!-- Imagem que será exibida -->
         <div class="image-container">
-          <img id="image" src=" IMG-20250225-WA0011.jpg" alt="Imagem 1">
+          <img id="image" src=" images/IMG-20250225-WA0011.jpg" alt="Imagem 1">
           <p id="caption">Legenda da imagem 1</p>
         </div>
 
@@ -497,70 +569,67 @@
 
 
       <div class="about-container">
-        <a href="#contact" class="botao-contacto1" data-lang="contact">SCHEDULE A FREE 30 MIN. STRATEGIC CALL</a>
+        <a href="https://calendly.com/portugal-production/30-minutes-strategic-call" target="_blank"
+          class="botao-contacto1" data-lang="contact">SCHEDULE A FREE 30 MIN. STRATEGIC CALL</a>
       </div>
     </div>
 
-        <section class="contact section" id="contact">
-            <h2 class="section-title" data-lang="contact">Contact</h2>
-      
-            <div class="contact-container bd-grid">
-      
-              
-              <form action="https://formsubmit.co/domy7074@gmail.com" method="POST"><p class="nome" data-lang=nome>Name:</p>
+    <section class="contact section" id="contact">
+      <h2 class="section-title" data-lang="contact">Contact</h2>
 
-                <input type="text" name="name" class="contact-input" required data-lang="nome"><p class="email" data-lang=email>E-mail:</p>
-                <input type="email" name="email" class="contact-input" required data-lang="email">
-      
-                <textarea name="message" cols="30" rows="10" class="contact-input" required data-lang="m"></textarea>
-      
-                <button type="submit" class="comic-button-enviar" data-lang="btenviar">Send</button>
-      
-                <input type="hidden" name="_subject" value="Novo Contato!">
-                <input type="text" name="_honey" style="display:none">
-                <input type="hidden" name="_captcha" value="false">
-              </form>
-            </div>
-          </section>
+      <div class="contact-container bd-grid">
+
+
+        <form action="https://formspree.io/f/myzekwap" method="POST">
+          <input type="text" id="name" name="name" class="contact-input" required data-lang="nome"
+            placeholder="Your Name">
+
+          <input type="email" id="email" name="email" class="contact-input" required data-lang="email"
+            placeholder="Your Email">
+
+          <textarea id="message" name="message" cols="30" rows="10" class="contact-input" required data-lang="m"
+            placeholder="Your Message"></textarea>
+
+          <button type="submit" class="comic-button-enviar" data-lang="btenviar">Send</button>
+
+          <!-- Configurações ocultas para Formspree -->
+          <input type="hidden" name="_subject" value="Novo Contato!">
+          <input type="hidden" name="_next" value="https://nancy.com/shows.html"> <!-- Redirecionamento após envio -->
+
+          <!-- Honeypot (campo escondido para evitar bots) -->
+          <input type="text" name="_honey" style="display: none;">
+        </form>
+      </div>
+    </section>
 
     <footer class="footer">
       <p class="footer-title">Nancy Oliveira</p>
 
       <div class="footer-social">
+        <a href="https://wa.me/+351969000842" class="footer-icon" target="_blank">
+          <i class="bx bxl-whatsapp"></i> <!-- Ícone do WhatsApp -->
+        </a>
+        <a href="mailto:nancy@portugalproduction.com" class="footer-icon" target="_blank">
+          <i class='bx bxl-gmail'></i>
+        </a>
         <a href="https://www.linkedin.com/in/nancyoliveira/" class="footer-icon" target="_blank">
           <i class='bx bxl-linkedin'></i>
-        </a>
-        <a href="https://www.youtube.com/@portugalproduction" class="footer-icon" target="_blank">
-          <i class='bx bxl-youtube'></i>
         </a>
         <a href="https://www.instagram.com/portugalproduction_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
           class="footer-icon" target="_blank">
           <i class='bx bxl-instagram'></i>
         </a>
-        <a href="mailto:nancy@portugalproduction.com"
-                class="footer-icon" target="_blank">
-                <i class='bx bxl-gmail'></i>
-            </a>
+        <a href="https://www.youtube.com/@portugalproduction" class="footer-icon" target="_blank">
+          <i class='bx bxl-youtube'></i>
+        </a>
       </div>
 
-      <p class="footer-footer" data-lang="footerfooterfooter">2025 © All rights reserved</p>
+      <p class="home-title-color-footer">2025 © All rights reserved <br> Made by <span class="home-title-color-footer2">Domynik & Samuel.</span></p>
     </footer>
 
+    <script src="js/agency.js"></script>
+    <script src="js/nav.js"></script>
 
-
-    <script src="mystory.js">rf</script>
-    <script src="agency.js"></script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-          const toggleButton = document.querySelector(".menu-toggle");
-          const navList = document.querySelector(".nav-list");
-
-          toggleButton.addEventListener("click", function () {
-              navList.classList.toggle("active");
-          });
-      });
-  </script>
 
 </body>
 
